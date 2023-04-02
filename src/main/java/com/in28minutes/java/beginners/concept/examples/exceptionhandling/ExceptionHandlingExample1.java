@@ -40,7 +40,7 @@ class Reuse {
 	}
 
 	public void firstMethod() throws RuntimeException {
-
+		System.out.println();
 	}
 
 	public void secondMethod() {
