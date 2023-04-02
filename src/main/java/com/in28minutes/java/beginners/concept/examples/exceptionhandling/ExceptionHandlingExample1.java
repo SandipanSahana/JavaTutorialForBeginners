@@ -100,6 +100,7 @@ public class ExceptionHandlingExample1 {
 		connection.open();
 		try {
 			System.out.println("test");
+			System.out.println("test 2");
 			return;
 		} catch (Exception e) {
 
