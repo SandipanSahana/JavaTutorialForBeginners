@@ -99,6 +99,7 @@ public class ExceptionHandlingExample1 {
 		Connection connection = new Connection();
 		connection.open();
 		try {
+			System.out.println("test");
 			return;
 		} catch (Exception e) {
 
